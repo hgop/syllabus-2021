@@ -31,6 +31,22 @@ Fyrirlestrar snerta á öllum köflum bókarinnar. Sjá dagskrá að neðan.
 | **Verkefnavinna**       | [Bash](/assignments/week-01/day-01/README.md)            | [Docker](/assignments/week-01/day-02/README.md)                     | [Kubernetes](/assignments/week-01/day-03/README.md)                                             | [Circle CI](/assignments/week-01/day-04/README.md)  | [Verkefni viku 1](/assignments/week-01/day-05/README.md)   |
 | **Dagskrá**       | 09:00 Kynning námskeiðs (Í stofu og Zoom) <br><br> 10:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom)  | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) <br><br> 15:00 Samantekt vikunnar (Skyldumæting á Zoom)  | 14:00 Dæmatími (Í stofu og Zoom) 
 
+## Week 2
+
+|                        | Mon                                                                   | Tue                                                                                              | Wed                                                                  | Thu                                                                          | Fri                                               |
+| ---------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------- |
+| **Lecture**            | - Implementing a Test Strategy <br> - The Commit Stage <br> 11:00 Q&A [Zoom](https://eu01web.zoom.us/j/66396725335)| - Automated Acceptance Testing<br>- [TDD Demo](https://www.youtube.com/watch?v=dgJ43S_c2XM&feature=youtu.be) <br> - Game intro <br> 11:00 Q&A [Zoom](https://eu01web.zoom.us/j/62752474886) | - Testing Nonfunctional Requirements <br>                                    | - 09:00 Zoom lecture of Security Testing. <br> - 10:00 Guest lecture on security from Syndis | No lecture, Lab day                               |
+| **Reading Assignment** | Chapter 4,7                                                           |                                                                                                  | Chapter 8                                                            | Chapter 9                                                                    |                                                   |
+
+## Week 3
+
+|                        | Mon                                                            | Tue                                                                  | Wed                                               | Thu                               | Fri                                                |
+| ---------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------- | -------------------------------------------------- |
+| **Lecture**            | - Deploying and Releasing Applications<br>- Managing Data<br>11:00 Q&A [Zoom](https://eu01web.zoom.us/j/68392394252) | [Mobile App Deployment](https://youtu.be/LbNDzrHXaI8) <br> Accessibility<br>Usability<br>11:00 Q&A [Zoom](https://eu01web.zoom.us/j/65145305304) | - Managing Continuous Delivery<br> Team Topology<br> 10:00 Change mangement and Q&A [Zoom](https://eu01web.zoom.us/j/65292743777) | Time for students to prepare exam Q&A at 11:00 [Zoom](https://eu01web.zoom.us/j/64581241218)| Exam, 09:00 - 10:30 <br>[Zoom] (https://eu01web.zoom.us/j/66518150598) session for questions during the exam                          |
+| **Reading Assignment** | Chapter 10, 12                                                     | Chapter 11                                                           |Chapter 15                                             |                                   |                                                    |                     
+
+
+
 ## Vika 2
 
 *Birt í byrjun viku 2*
