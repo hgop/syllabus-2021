@@ -392,27 +392,41 @@ repository:
 │   │   └── answers.md
 │   └── day02
 │       └── answers.md
+├── docker-compose.yml
+├── Justfile
+├── README.md
 ├── scripts
 │   └── verify_local_dev_environment.sh
 └── src
-    ├── connect4-client
+    ├── connect4-client    
+    │   ├── .dockerignore
+    │   ├── .eslintrc.json
+    │   ├── .gitignore
+    │   ├── .pnp.cjs
+    │   ├── .pnp.loader.mjs
+    │   ├── .yarnrc.yml
+    │   ├── Dockerfile
     │   ├── k8s
     │   │   ├── deployment.template.yaml
     │   │   ├── ingress.template.yaml
     │   │   └── service.template.yaml
+    │   ├── next.config.js
+    │   ├── next-env.d.ts
+    │   ├── package.json
+    │   ├── pages
+    │   │   ├── api
+    │   │   │   └── hello.ts
+    │   │   ├── _app.tsx
+    │   │   └── index.tsx
     │   ├── public
-    │   │   ├── ...
-    │   │   └── index.html
-    │   ├── src
-    │   │   ├── ...
-    │   │   ├── index.tsx
-    │   │   └── App.tsx
-    │   ├── .dockerignore
-    │   ├── .gitignore
-    │   ├── Dockerfile
+    │   │   ├── favicon.ico
+    │   │   └── vercel.svg
+    │   ├── README.md
+    │   ├── styles
+    │   │   ├── globals.css
+    │   │   └── Home.module.css
     │   ├── tsconfig.json
-    │   ├── package-lock.json
-    │   └── package.json
+    │   └── yarn.lock
     └── httpbin
         └── k8s
             ├── deployment.template.yaml
