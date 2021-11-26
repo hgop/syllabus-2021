@@ -21,7 +21,13 @@ repository:
 │   │       └── merge.sh
 │   └── verify_local_dev_environment.sh
 └── src
-    ├── connect4-client
+    ├── connect4-client    
+    │   ├── .dockerignore
+    │   ├── .eslintrc.json
+    │   ├── .gitignore
+    │   ├── .pnp.cjs
+    │   ├── .pnp.loader.mjs
+    │   ├── .yarnrc.yml
     │   ├── Dockerfile
     │   ├── k8s
     │   │   ├── deployment.template.yaml
