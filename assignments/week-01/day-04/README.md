@@ -179,7 +179,7 @@ We can now fill in the deploy step:
 ```
   deploy:
     docker:
-      - image: circleci/buildpack-deps:stretch
+      - image: cimg/base:stable
     steps:
       - checkout
       - kubernetes/install-kubectl
