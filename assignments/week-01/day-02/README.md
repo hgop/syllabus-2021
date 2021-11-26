@@ -422,26 +422,35 @@ connect4-client repository:
 │   │   └── answers.md
 │   └── day02
 │       └── answers.md
+├── docker-compose.yml
+├── Justfile
+├── README.md
 ├── scripts
-│   └── setup_local_dev_environment.sh
+│   └── verify_local_dev_environment.sh
 └── src
-    └── connect4-client
-        ├── .yarn
-        │   ├── ...
-        ├── public
-        │   ├── ...
-        ├── pages
-        │   ├── ...
-        │   ├── index.tsx
-        │   └── _app.tsx
+    └── connect4-client    
         ├── .dockerignore
+        ├── .eslintrc.json
         ├── .gitignore
         ├── .pnp.cjs
         ├── .pnp.loader.mjs
         ├── .yarnrc.yml
-        ├── package.json
-        ├── tsconfig.json
-        ├── next.config.js
-        ├── yarn.lock
         ├── Dockerfile
+        ├── next.config.js
+        ├── next-env.d.ts
+        ├── package.json
+        ├── pages
+        │   ├── api
+        │   │   └── hello.ts
+        │   ├── _app.tsx
+        │   └── index.tsx
+        ├── public
+        │   ├── favicon.ico
+        │   └── vercel.svg
+        ├── README.md
+        ├── styles
+        │   ├── globals.css
+        │   └── Home.module.css
+        ├── tsconfig.json
+        └── yarn.lock
 ```
