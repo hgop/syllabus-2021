@@ -253,7 +253,6 @@ connect4-client repository:
 │   │   └── answers.md
 │   └── day02
 │       └── answers.md
-├── docker-compose.yml
 ├── Justfile
 ├── README.md
 ├── scripts
