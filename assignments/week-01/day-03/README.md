@@ -6,7 +6,7 @@ Today we will be setting up MicroK8s in an AWS EC2 instance. Which will host you
 
 ## Step 1 - Request Instance
 
-[Request EC2 Instance](https://github.com/hgop/syllabus-2021/issues/1), we will create an AWS EC2 instance for you and setup a CNAME to route traffic using your teamname.
+[Request EC2 Instance](https://github.com/hgop/syllabus-2021/issues/10), we will create an AWS EC2 instance for you and setup a CNAME to route traffic using your teamname.
 
 ## Step 2 - Kubernetes
 
@@ -39,7 +39,7 @@ Also remember to add `kubectl` to the setup script you created in day 1.
 
 ## Step 3 - MicroK8s
 
-Now ssh into your instance using the keypair you created in step 2.
+Now ssh into your instance using the keypair you got in Step 1 (We'll send it to as an issue in your repository).
 
 First you might have to change the permissions on your keyfile:
 
@@ -398,27 +398,40 @@ repository:
 │   │   └── answers.md
 │   └── day02
 │       └── answers.md
+├── Justfile
+├── README.md
 ├── scripts
 │   └── verify_local_dev_environment.sh
 └── src
-    ├── connect4-client
+    ├── connect4-client    
+    │   ├── .dockerignore
+    │   ├── .eslintrc.json
+    │   ├── .gitignore
+    │   ├── .pnp.cjs
+    │   ├── .pnp.loader.mjs
+    │   ├── .yarnrc.yml
+    │   ├── Dockerfile
     │   ├── k8s
     │   │   ├── deployment.template.yaml
     │   │   ├── ingress.template.yaml
     │   │   └── service.template.yaml
+    │   ├── next.config.js
+    │   ├── next-env.d.ts
+    │   ├── package.json
+    │   ├── pages
+    │   │   ├── api
+    │   │   │   └── hello.ts
+    │   │   ├── _app.tsx
+    │   │   └── index.tsx
     │   ├── public
-    │   │   ├── ...
-    │   │   └── index.html
-    │   ├── src
-    │   │   ├── ...
-    │   │   ├── index.tsx
-    │   │   └── App.tsx
-    │   ├── .dockerignore
-    │   ├── .gitignore
-    │   ├── Dockerfile
+    │   │   ├── favicon.ico
+    │   │   └── vercel.svg
+    │   ├── README.md
+    │   ├── styles
+    │   │   ├── globals.css
+    │   │   └── Home.module.css
     │   ├── tsconfig.json
-    │   ├── package-lock.json
-    │   └── package.json
+    │   └── yarn.lock
     └── httpbin
         └── k8s
             ├── deployment.template.yaml

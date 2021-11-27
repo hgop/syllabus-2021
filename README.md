@@ -33,11 +33,19 @@ Fyrirlestrar snerta á öllum köflum bókarinnar. Sjá dagskrá að neðan.
 
 ## Vika 2
 
-*Birt í byrjun viku 2*
+|                        | mán                                                      | þri                                                       | mið                                                                           | fim                                                   | fös                                              |
+| ---------------------- | -------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
+| **Fyrirlestrar**            | - Implementing a Test Strategy <br> - The Commit Stage | - Automated Acceptance Testing  | - Testing Nonfunctional Requirements | - Security Testing <br> - Guest lecture on security from Syndis | Engir fyrirlestrar, verkefnavinna                              |
+| **Lesefni** <br> *Kaflar í svigum eru aukaefni eða í minni áherslu.* | Kafli 4,7                                                |    Kafli 8                               | Kafli 9                                                                 |                                    |                                                  |
+| **Verkefnavinna**       |            |                     |                                              |  |  |
+| **Dagskrá**       | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom)  | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) <br><br> 15:00 Samantekt vikunnar (Skyldumæting á Zoom)  | 14:00 Dæmatími (Í stofu og Zoom) 
+
 
 ## Vika 3
 
-*Birt í byrjun viku 3*
+|                        | Mon                                                            | Tue                                                                  | Wed                                               | Thu                               | Fri                                                |
+| ---------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------- | -------------------------------------------------- |
+| **Reading Assignment** | Chapter 10, 12                                                     | Chapter 11                                                           |Chapter 15                                             |                                   |                                                    |                     
 
 # Spurt og svarað
 

@@ -9,34 +9,47 @@ repository:
 ├── .circleci
 │   └── config.yml
 ├── assignments
-│   ├── day01
-│   │   └── answers.md
-│   └── day02
-│       └── answers.md
+│   ├── day01
+│   │   └── answers.md
+│   └── day02
+│       └── answers.md
+├── Justfile
+├── README.md
 ├── scripts
-│   ├── ci
-│   │   └── yaml
-│   │       └── merge.sh
-│   └── verify_local_dev_environment.sh
+│   ├── ci
+│   │   └── yaml
+│   │       └── merge.sh
+│   └── verify_local_dev_environment.sh
 └── src
-    ├── connect4-client
-    │   ├── k8s
-    │   │   ├── deployment.template.yaml
-    │   │   ├── ingress.template.yaml
-    │   │   └── service.template.yaml
-    │   ├── public
-    │   │   ├── ...
-    │   │   └── index.html
-    │   ├── src
-    │   │   ├── ...
-    │   │   ├── index.tsx
-    │   │   └── App.tsx
+    ├── connect4-client    
     │   ├── .dockerignore
+    │   ├── .eslintrc.json
     │   ├── .gitignore
-    │   ├── Dockerfile
-    │   ├── tsconfig.json
-    │   ├── package-lock.json
-    │   └── package.json
+    │   ├── .pnp.cjs
+    │   ├── .pnp.loader.mjs
+    │   ├── .yarnrc.yml
+    │   ├── Dockerfile
+    │   ├── k8s
+    │   │   ├── deployment.template.yaml
+    │   │   ├── ingress.template.yaml
+    │   │   └── service.template.yaml
+    │   ├── next.config.js
+    │   ├── next-env.d.ts
+    │   ├── package.json
+    │   ├── pages
+    │   │   ├── api
+    │   │   │   └── hello.ts
+    │   │   ├── _app.tsx
+    │   │   └── index.tsx
+    │   ├── public
+    │   │   ├── favicon.ico
+    │   │   └── vercel.svg
+    │   ├── README.md
+    │   ├── styles
+    │   │   ├── globals.css
+    │   │   └── Home.module.css
+    │   ├── tsconfig.json
+    │   └── yarn.lock
     └── httpbin
         └── k8s
             ├── deployment.template.yaml

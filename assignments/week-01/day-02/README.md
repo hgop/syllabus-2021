@@ -97,6 +97,10 @@ To make sure your new application is working as expected you can run it locally 
 
 `yarn install`
 
+- Building the app:
+
+`yarn build`
+
 - Starting the application:
 
 `yarn start`
@@ -389,7 +393,7 @@ Docker to run it.
       a browser (curl)
 - [ ] I've stored my docker image on Docker Cloud
 - [ ] A team member has pulled my image and got it running
-- [ ] I've committed all my code to a new GitHub repo
+- [ ] I've committed all my code to my team's GitHub repo
 
 ## Part 4 - Questions
 
@@ -433,26 +437,35 @@ connect4-client repository:
 │   │   └── answers.md
 │   └── day02
 │       └── answers.md
+├── docker-compose.yml
+├── Justfile
+├── README.md
 ├── scripts
-│   └── setup_local_dev_environment.sh
+│   └── verify_local_dev_environment.sh
 └── src
-    └── connect4-client
-        ├── .yarn
-        │   ├── ...
-        ├── public
-        │   ├── ...
-        ├── pages
-        │   ├── ...
-        │   ├── index.tsx
-        │   └── _app.tsx
+    └── connect4-client    
         ├── .dockerignore
+        ├── .eslintrc.json
         ├── .gitignore
         ├── .pnp.cjs
         ├── .pnp.loader.mjs
         ├── .yarnrc.yml
-        ├── package.json
-        ├── tsconfig.json
-        ├── next.config.js
-        ├── yarn.lock
         ├── Dockerfile
+        ├── next.config.js
+        ├── next-env.d.ts
+        ├── package.json
+        ├── pages
+        │   ├── api
+        │   │   └── hello.ts
+        │   ├── _app.tsx
+        │   └── index.tsx
+        ├── public
+        │   ├── favicon.ico
+        │   └── vercel.svg
+        ├── README.md
+        ├── styles
+        │   ├── globals.css
+        │   └── Home.module.css
+        ├── tsconfig.json
+        └── yarn.lock
 ```

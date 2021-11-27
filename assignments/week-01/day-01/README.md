@@ -79,7 +79,7 @@ Create a bash script `scripts/verify_local_dev_environment.sh` that checks requi
 - [ ] The script should check the version of all tools.
   - [ ] git (2.x.x)
   - [ ] NodeJS (16.x.x)
-  - [ ] npm (8.x.x)
+  - [ ] npm (^6.x.x)
   - [ ] Python (3.8+.x)
   - [ ] Pip (20.x.x)
   - [ ] Just (0.10+)
@@ -92,6 +92,10 @@ Create a [Justfile](https://github.com/casey/just) in the root of the repository
   - [ ] Runs `scripts/verify_local_dev_environment.sh`.
 - [ ] Create a `venv` recipe:
   - [ ] Creates a python virtual environment (if it does not exist)
+
+Example Output:
+
+<img src="output.png" width="400" />
 
 ## Adding an SSH key to GitHub
 
