@@ -1,6 +1,7 @@
 # Bash
 
-# The Labs
+## The Labs
+
 The lab exercises will be introduced each day. To be able to assist as many students as possible we encourage you to submit issues on the [course's Github repository](https://github.com/hgop/syllabus-2021/issues) when you encounter problems.
 
 If you can we encourage you to answer issues from other students.
@@ -11,7 +12,7 @@ Before you submit an issue please make sure you've checked the following:
 
 2. Make sure to describe your issue using the following template, so it's easier to debug the situation:
 
-```
+```text
 Note: The following template is for guidance only, if you're just asking a question
 regarding the course structure or setup or you don't feel the template is applicable 
 it's fine. Otherwise, please fill in the following information.
@@ -48,7 +49,7 @@ Please provide steps for reproducing the issue if you can:
 Please include any relevant log snippets, screen shots or files here.
 ```
 
-# Getting to know Bash
+## Getting to know Bash
 
 Introduction into the bash scripting language and learning how to setup our local dev environment.
 
@@ -118,6 +119,7 @@ This is how your repositories should look after todays assignment which you
 will submit on Friday.
 
 repository:
+
 ```text
 .
 ├── scripts
@@ -130,6 +132,7 @@ repository:
 You should maintain the verify script through out the course for the final handin.
 
 ## Tips and tricks
+
 Bash supports functions. Functions in bash behave like commands, not like functions in regular programming
 languages. That means they have stdout, stderr and return codes.
 

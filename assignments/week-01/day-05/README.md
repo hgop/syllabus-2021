@@ -3,7 +3,8 @@
 **Turn in your GitHub repository URLs into Canvas solo or in pairs (please add `kthorri` and `ironpeak` as collaborators)**
 
 repository:
-```
+
+```text
 .
 ├── .circleci
 │   └── config.yml

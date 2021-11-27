@@ -1,6 +1,6 @@
 # Docker
 
-### What is Docker?
+## What is Docker?
 
 [Read this article before starting the assignment](https://opensource.com/resources/what-docker)
 
@@ -16,7 +16,7 @@ When you are finished you should be able to run:\
 `docker run hello-world`\
 and get the following:
 
-```
+```text
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
@@ -37,7 +37,7 @@ Run:\
 `lsb_release -a`\
 Should display (depending on your Ubuntu version):
 
-```
+```text
 Distributor ID:   Ubuntu
 Description:      Ubuntu 20.04.1 LTS
 Release:          20.04
@@ -78,6 +78,7 @@ that the build of your app defined in this Dockerfile will behave exactly the
 same wherever it runs.
 
 ### The application
+
 Let's create a NextJS application and run it in a Docker container.
 
 Enter the following commands to create the application:
@@ -91,19 +92,27 @@ In your repository create a `./src` directory, once inside it:
 These commands will create a Typescript application in the folder `connect4-client`
 
 To make sure your new application is working as expected you can run it locally on your machine by:
-- Installing the dependencies:\
+
+- Installing the dependencies:
+
 `yarn install`
-- Starting the application:\
+
+- Starting the application:
+
 `yarn start`
+
 - The application should be running on `http://localhost:3000/`
 
-
 #### Yarn Berry
+
 Let's change our package management in the new client application.
 
 We are going to be migrating to [Yarn V3](https://yarnpkg.com/getting-started/migration)
+
 - Start by setting the yarn version
+
 `yarn set version berry`
+
 - Commit the changes you have so far. This should have added a couple of new files
 - We need to add a few lines to our .gitignore file configurations can be found [here](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
 - run `yarn install` again and commit the new lock file
@@ -114,6 +123,7 @@ We are going to be migrating to [Yarn V3](https://yarnpkg.com/getting-started/mi
 - Make sure your application build with the new file system `yarn build`
 
 ### Dockerfile
+
 Now we want to be able to run the application easily in multiple environments that might be very different from your local setup. We can use docker to build your application into a docker image which can be run on all kinds of environments.
 
 Create a file called `Dockerfile` in the `connect4-client` folder and copy-paste the following content into the file and replace the TODOs with the correct commands.
@@ -148,7 +158,8 @@ TODO
 ### Build the app
 
 We are ready to build the app. The inside of your repository's `./src/connect4-client` directory should contain:
-```
+
+```bash
 connect4-client
 ├── .next
 │   └── ...
@@ -177,13 +188,13 @@ connect4-client
 
 Now run the build command. This creates a Docker image, which we’re going to tag using -t so it has a friendly name.
 
-```
+```bash
 docker build -t connect4-client .
 ```
 
 Where is your built image? It’s in your machine’s local Docker image registry:
 
-```
+```bash
 $ docker images
 
 REPOSITORY            TAG                 IMAGE ID
@@ -197,7 +208,7 @@ connect4-client   latest              326387cea398
 
 Run the app and map your machine’s port 3000 to the container’s published port 3000 using -p (If we don't map the ports there is no way for us to access the port because it's only available inside the docker container):
 
-```
+```bash
 $ docker run -p 3000:3000 connect4-client
 
 > connect4-client@0.1.0 start /app
@@ -223,12 +234,12 @@ To create a production build, use npm run build.
 Your shell will enter the docker container and won't allow you to ctrl+c
 out of the process.
 
-The app is a simple React App and can be visited by going to http://localhost:3000 in your preferred browser.
+The app is a simple React App and can be visited by going to `http://localhost:3000` in your preferred browser.
 
 Now finally to exit the docker container, using another shell kill the
 docker container by:
 
-```
+```bash
 $ docker container list
 
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
@@ -239,24 +250,25 @@ $ docker container stop 931853651e89
 
 Now let’s run the app in the background, in detached mode (-d flag):
 
-```
+```bash
 docker run -d -p 3000:3000 connect4-client
 ```
 
 You get the long container ID for your app and then are kicked back to your terminal. Your container is running in the background. You can also see the abbreviated container ID with docker container ls (and both work interchangeably when running commands):
-```
+
+```bash
 $ docker container list
 
 CONTAINER ID        IMAGE               COMMAND                   CREATED           PORTS
 1fa4ab2cf395        connect4-client "docker-entrypoint.s…"    28 seconds ago   0.0.0.0:3000->3000/tcp
 ```
 
-You’ll see that that the app is running on http://localhost:3000/.
+You’ll see that that the app is running on `http://localhost:3000/`.
 
 Now use docker container stop to end the process, using the CONTAINER ID, like
 so:
 
-```
+```bash
 docker container stop 1fa4ab2cf395
 ```
 
@@ -287,7 +299,7 @@ If you don’t have a Docker account, sign up for one at
 
 Log in to the Docker public registry on your local machine.
 
-```
+```bash
 $ docker login
 ```
 
@@ -302,20 +314,20 @@ Now, put it all together to tag the image. Run docker tag image with your
 username, repository, and tag names so that the image will upload to your
 desired destination. The syntax of the command is:
 
-```
+```bash
 docker tag image username/repository:tag
 ```
 
 For example:
 
-```
+```bash
 docker tag connect4 john/connect4-client:day2
 ```
 
 Run docker images to see your newly tagged image. (You can also use docker image
 ls.)
 
-```
+```bash
 $ docker images
 REPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
 connect4-client      latest              d9e555c53008        3 minutes ago       195MB
@@ -327,7 +339,7 @@ john/connect4-client day2                d9e555c53008        3 minutes ago      
 
 Upload your tagged image to the repository:
 
-```
+```bash
 docker push username/repository:tag
 ```
 
@@ -337,14 +349,14 @@ to Docker Hub, you will see the new image there, with its pull command.
 Pull and run the image from the remote repository From now on, you can use
 docker run and run your app on any machine with this command:
 
-```
+```bash
 docker run -p 3000:3000 username/repository:tag
 ```
 
 If the image isn’t available locally on the machine, Docker will pull it from
 the repository. If you're working in a team try to pull images and run then from each other.
 
-```
+```bash
 $ docker run -p 3000:3000 my-team-member/connect4-client:day2
 Unable to find image 'my-team-member/connect4-client:day2' locally
 part2: Pulling from my-team-member/connect4-client
@@ -384,7 +396,7 @@ Docker to run it.
 Create an `answers.md` file that describes the following
 (only 1-2 sentences each)
 
-```
+```Dockerfile
 # Docker Exercise
 TODO: What was this assignment about
 
@@ -413,6 +425,7 @@ This is how your repositories should look after todays assignment which you
 will submit on Friday.
 
 connect4-client repository:
+
 ```bash
 .
 ├── assignments
