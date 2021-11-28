@@ -190,7 +190,7 @@ Then we will use it in CircleCI:
         command: ./scripts/ci/deploy/create.sh "httpbin" "${CIRCLE_SHA1}" > httpbin.yaml
     - run:
         name: "Clean previous job"
-        command: kubectl delete job connect4-migrations
+        command: kubectl delete job connect4-migrations || exit 0
     - run:
         name: "Deploy"
         command: kubectl apply -f connect4-client.yaml -f connect4-server.yaml -f httpbin.yaml

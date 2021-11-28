@@ -68,7 +68,7 @@ kubernetes.
         kubeconfig: KUBECONFIG_DATA
     - run: ./scripts/ci/database/create_database.sh "acceptance"
     - run: ./scripts/ci/deploy/create.sh "connect4-server" "${CIRCLE_SHA1}" > connect4-server.yaml
-    - run: kubectl delete --namespace acceptance job connect4-migrations
+    - run: kubectl delete --namespace acceptance job connect4-migrations || exit 0
     - run: kubectl apply --namespace acceptance -f connect4-server.yaml
 ```
 
