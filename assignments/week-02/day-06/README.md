@@ -202,7 +202,7 @@ You will need to setup the required environment variables in CircleCI to get it 
 
 NOTE: The server does not work the same as the server you're currently using, i.e. there is some logic missing, but you'll fix that on Day 7.
 
-Now switch out the server API_URL in the client for your API_URL and make sure everything is up and running. TODO @kthorri
+You will need to set the API_URL environment variable for the server.
 
 ## Part 3 - Local Development
 
