@@ -596,6 +596,7 @@ You should store all the source files in your repository:
     │   ├── .dockerignore
     │   ├── .gitignore
     │   ├── Dockerfile
+    |   ├── jest.config.js
     │   ├── k8s
     │   ├── public
     │   ├── src
