@@ -176,6 +176,14 @@ It should use the tag argument to replace the deployment's image tag.
 
 It should print the result to stdout.
 
+Hint:
+
+```yaml
+a="$(echo "${variable}" | cut -d '=' -f1)"
+b="$(echo "${variable}" | cut -d '=' -f2-)"
+c="$(echo "${content}" | sed "s/{{${variable_key}}}/${variable_value}/g")"
+```
+
 Then we will use it in CircleCI:
 
 ```yaml
