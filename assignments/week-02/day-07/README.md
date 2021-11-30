@@ -580,6 +580,7 @@ You should store all the source files in your repository:
 ├── .gitignore
 ├── docker-compose.yaml
 ├── Justfile
+├── jest.config.js
 ├── README.md
 ├── scripts
 │   ├── ci
