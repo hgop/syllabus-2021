@@ -5,7 +5,6 @@
 Before starting this part of the assignment we need to make sure we have the following up and running:
 
 - [ ] A running Circle CI pipeline for client and server
-- [ ] A live working game
 
 ## Objectives
 
