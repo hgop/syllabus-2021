@@ -254,6 +254,7 @@ You should store all the source files in your repository:
     │       └── tests
     │           ├── __init__.py
     │           ├── acceptance
+    |           |   ├── helper.py
     │           |   ├── __init__.py
     │           |   ├── config.py
     │           |   └── test_*.py
