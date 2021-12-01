@@ -94,7 +94,7 @@ Run your acceptance tests agains the newly deployed instance:
     steps:
       - checkout
       - run: pip install -r $PROJECT_DIRECTORY/requirements_dev.txt
-      - run: pytest $PROJECT_DIRECTORY/src/acceptance
+      - run: pytest $PROJECT_DIRECTORY/src/tests/acceptance
 ```
 
 ### Step 4 - Create another test
@@ -254,6 +254,7 @@ You should store all the source files in your repository:
     │       └── tests
     │           ├── __init__.py
     │           ├── acceptance
+    |           |   ├── helper.py
     │           |   ├── __init__.py
     │           |   ├── config.py
     │           |   └── test_*.py
