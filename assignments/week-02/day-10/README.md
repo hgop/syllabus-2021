@@ -130,7 +130,6 @@ You should store all the source files in your repository:
 │   │   │   ├── script.py.mako
 │   │   │   └── versions
 │   │   │       └── c047b889bc99_initial_migration.py
-│   │   ├── .mypy_cache
 │   │   ├── README.md
 │   │   ├── scripts
 │   │   │   └── create_database.sh
@@ -149,14 +148,6 @@ You should store all the source files in your repository:
 │   │   │   │   └── views.py
 │   │   │   ├── .idea
 │   │   │   │   └── workspace.xml
-│   │   │   ├── .pytest_cache
-│   │   │   │   ├── CACHEDIR.TAG
-│   │   │   │   ├── .gitignore
-│   │   │   │   ├── README.md
-│   │   │   │   └── v
-│   │   │   │       └── cache
-│   │   │   │           ├── nodeids
-│   │   │   │           └── stepwise
 │   │   │   ├── requirements_dev.txt
 │   │   │   ├── requirements.txt
 │   │   │   ├── tests
@@ -166,17 +157,6 @@ You should store all the source files in your repository:
 │   │   │   │   │   ├── helper.py
 │   │   │   │   │   ├── __init__.py
 │   │   │   │   │   ├── __init__.pyc
-│   │   │   │   │   ├── __pycache__
-│   │   │   │   │   │   ├── __init__.cpython-38.pyc
-│   │   │   │   │   │   └── test_status.cpython-27-PYTEST.pyc
-│   │   │   │   │   ├── .pytest_cache
-│   │   │   │   │   │   ├── CACHEDIR.TAG
-│   │   │   │   │   │   ├── .gitignore
-│   │   │   │   │   │   ├── README.md
-│   │   │   │   │   │   └── v
-│   │   │   │   │   │       └── cache
-│   │   │   │   │   │           ├── nodeids
-│   │   │   │   │   │           └── stepwise
 │   │   │   │   │   ├── test_gameplay.py
 │   │   │   │   │   └── test_status.py
 │   │   │   │   ├── capacity
