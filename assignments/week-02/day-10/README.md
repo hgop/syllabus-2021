@@ -27,7 +27,6 @@ You should store all the source files in your repository:
 ├── .git
 ├── .gitignore
 ├── Justfile
-├── package.json
 ├── README.md
 ├── scripts
 │   ├── ci
@@ -93,8 +92,6 @@ You should store all the source files in your repository:
 │   │   │   │       └── types.ts
 │   │   │   ├── external_services
 │   │   │   │   └── game_api_client.ts
-│   │   │   ├── .idea
-│   │   │   │   └── ..
 │   │   │   └── pages
 │   │   │       ├── api
 │   │   │       │   └── hello.ts
@@ -105,9 +102,6 @@ You should store all the source files in your repository:
 │   │   │   ├── globals.css
 │   │   │   └── Home.module.css
 │   │   ├── tsconfig.json
-│   │   ├── .vscode
-│   │   │   ├── extensions.json
-│   │   │   └── settings.json
 │   │   ├── .yarn
 │   │   │   └── ..
 │   ├── connect4-server
@@ -146,8 +140,6 @@ You should store all the source files in your repository:
 │   │   │   │   ├── models.py
 │   │   │   │   ├── tokens.py
 │   │   │   │   └── views.py
-│   │   │   ├── .idea
-│   │   │   │   └── workspace.xml
 │   │   │   ├── requirements_dev.txt
 │   │   │   ├── requirements.txt
 │   │   │   ├── tests
@@ -186,11 +178,8 @@ You should store all the source files in your repository:
 │   │       ├── deployment.template.yaml
 │   │       ├── ingress.template.yaml
 │   │       └── service.template.yaml
-│   └── .pytest_cache
-│       └── ..
 ├── .yarn
-│   └── releases
-└── yarn.lock
+    └── releases
 ```
 
 Your `README.md` file should include the URL to the instances running:
