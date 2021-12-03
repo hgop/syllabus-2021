@@ -145,23 +145,16 @@ You should store all the source files in your repository:
 │   │   │   ├── tests
 │   │   │   │   ├── acceptance
 │   │   │   │   │   ├── config.py
-│   │   │   │   │   ├── config.pyc
 │   │   │   │   │   ├── helper.py
 │   │   │   │   │   ├── __init__.py
-│   │   │   │   │   ├── __init__.pyc
 │   │   │   │   │   ├── test_gameplay.py
 │   │   │   │   │   └── test_status.py
 │   │   │   │   ├── capacity
 │   │   │   │   │   ├── config.py
 │   │   │   │   │   ├── __init__.py
-│   │   │   │   │   ├── __pycache__
-│   │   │   │   │   │   └── ..
 │   │   │   │   │   ├── test_parallel.py
 │   │   │   │   │   └── test_sequential.py
 │   │   │   │   ├── __init__.py
-│   │   │   │   ├── __init__.pyc
-│   │   │   │   ├── __pycache__
-│   │   │   │   │   └── __init__.cpython-38.pyc
 │   │   │   │   └── unit
 │   │   │   │       ├── helper.py
 │   │   │   │       ├── __init__.py
