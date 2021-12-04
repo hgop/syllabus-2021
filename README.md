@@ -48,7 +48,7 @@ Fyrirlestrar snerta á öllum köflum bókarinnar. Sjá dagskrá að neðan.
 | **Fyrirlestrar**            | - Deploying and Releasing Applications <br> - Managing Data | [Mobile App Deployment](https://youtu.be/LbNDzrHXaI8) <br> - Accessibility<br> - Usability | - Managing Continuous Delivery <br> - Change mangement | Upplestrarfrí | Lokapróf, 09:00 - 10:30 |
 | **Lesefni** <br> *Kaflar í svigum eru aukaefni eða í minni áherslu.* | Kafli 10,12                                                |    Kafli 11                               | Kafli 15                                                                 |                                    |                                                  |
 | **Verkefnavinna**       |  |                  |   |  |   |
-| **Dagskrá**       | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom)  | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) <br><br> 15:00 Samantekt vikunnar (Skyldumæting á Zoom) | | 14:00 Dæmatími (Í stofu og Zoom) 
+| **Dagskrá**       | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom)  | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) | 09:00 Verkefni dagsins (Zoom) <br><br> 14:00 Dæmatími (Í stofu og Zoom) <br><br> 15:00 Samantekt vikunnar (Skyldumæting á Zoom)<br><br> Próf Q&A í beinu framhaldi af samantekt | | 14:00 Dæmatími (Í stofu og Zoom) 
       
 
 # Spurt og svarað
