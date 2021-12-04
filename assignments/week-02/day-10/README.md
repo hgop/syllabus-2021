@@ -24,7 +24,6 @@ You should store all the source files in your repository:
 ├── .circleci
 │   └── config.yml
 ├── docker-compose.yml
-├── .git
 ├── .gitignore
 ├── Justfile
 ├── README.md
@@ -164,15 +163,11 @@ You should store all the source files in your repository:
 │   │   │   │       ├── test_game_logic.py
 │   │   │   │       ├── test_generate_token.py
 │   │   │   │       └── test_models.py
-│   │   │   └── venv
-│   │   │       └── ..
 │   ├── httpbin
 │   │   └── k8s
 │   │       ├── deployment.template.yaml
 │   │       ├── ingress.template.yaml
 │   │       └── service.template.yaml
-├── .yarn
-    └── releases
 ```
 
 Your `README.md` file should include the URL to the instances running:
