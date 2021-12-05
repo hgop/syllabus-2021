@@ -79,6 +79,15 @@ repository:
 
 ~~~bash
 .
+├── assignments
+│   ├── day01
+│   │   └── answers.md
+│   ├── day02
+│   │   └── answers.md
+│   ├── day09
+│   │   └── answers.md
+│   └── day11
+│       └── answers.md
 ├── .circleci
 │   └── config.yml
 ├── .github
