@@ -550,7 +550,7 @@ Your server is missing some game logic, so your test will fail. Still you should
       - checkout
       - run: pip install -r $PROJECT_DIRECTORY/requirements.txt
       - run: pip install -r $PROJECT_DIRECTORY/requirements_dev.txt
-      - run: mypy $PROJECT_DIRECTORY/src/tests/unit/
+      - run: mypy $PROJECT_DIRECTORY/src/
       - run: [TODO run pytest]
 ```
 
