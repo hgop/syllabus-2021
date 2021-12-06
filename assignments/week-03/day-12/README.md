@@ -14,7 +14,7 @@ Before starting this part of the assignment we need to make sure we have the fol
 
 ## Get up to date
 You don't need everything from Week 2 to finish this part of the assignment. Make sure that your client is working, and you're able to play a local game, if it's not you can find the client base here, which will also be used for this assignment:
-- [The client code can be found here](https://github.com/hgop/connect-four-client-base)
+- [The client code can be found here](https://github.com/hgop/hgop-connect4-client-base-2021)
 Make sure to replace the Team name and docker repository field.
 
 ## Objectives
