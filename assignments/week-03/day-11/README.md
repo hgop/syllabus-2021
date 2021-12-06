@@ -15,7 +15,7 @@ Now that we ORM and migration framework up and running lets try to update our sc
 Add `created` field to your game and player entities:
 
 ~~~python
-created = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+created = db.Column(db.DateTime, nullable=True, default=datetime.utcnow)
 ~~~
 
 Fix the `add_migration` we gave you in the server base to handle new migrations:
