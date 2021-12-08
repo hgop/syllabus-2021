@@ -22,7 +22,7 @@ Start by creating an [account](https://sentry.io/signup/).
 
 Select the React platform and install the sdk to your client application. 
 
-This should live in `index.tsx`
+This should live in `_app.tsx`
 
 Note: The failure event Sentry provides does not work in our application, as our code will not compile it because we are using Typescript.
 
